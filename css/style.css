@@ -1,0 +1,77 @@
+* {
+	line-height: 32px;
+	color: white;
+}
+
+body {
+	background-color: #8b4513;
+}
+
+p {
+	font-size: 26px;
+	text-align: center;
+	color: #8b4513;
+}
+
+.quote {
+	margin: 0px 10px;
+	color: #8b4513;
+	font-size: 22px;
+}
+
+.nQuote {
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	background-color: #8b4513;
+}
+
+.nQuote:hover {
+	opacity: 0.8;
+	text-decoration: none;
+	color: white;
+}
+
+.tweet {
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	background-color: #8b4513;
+}
+
+.tweet:hover {
+	opacity: 0.8;
+	text-decoration: none;
+	color: white;
+}
+
+.autor {
+	font-style: italic;
+	font-size: 16px;
+}
+
+.ola {
+	display: flex;
+}
+
+.fluid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	flex-direction: column;
+}
+
+.cred {
+	color: white;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cred:hover {
+	opacity: 0.8;
+	text-decoration: none;
+	color: white;
+}
